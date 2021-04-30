@@ -8,6 +8,7 @@ function InfoBox({ title, cases, total, active, isRed, ...props }) {
     <Card
         // gave the card clickable functionality
       onClick={props.onClick}
+      // if it is active, add the following info, in BEM if -- this stands for the item modification
       className={`infoBox ${active && "infoBox--selected"} ${
         isRed && "infoBox--red"
       }`}
