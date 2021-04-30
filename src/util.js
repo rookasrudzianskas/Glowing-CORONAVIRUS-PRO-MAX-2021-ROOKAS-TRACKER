@@ -28,7 +28,7 @@ export const sortData = (data) => {
   });
   return sortedData;
 };
-
+// prints the numbers in beautiful string
 export const prettyPrintStat = (stat) =>
   stat ? `+${numeral(stat).format("0.0a")}` : "+0";
 
