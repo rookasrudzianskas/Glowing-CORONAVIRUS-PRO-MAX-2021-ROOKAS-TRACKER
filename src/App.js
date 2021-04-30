@@ -75,7 +75,7 @@ const App = () => {
     <div className="app">
       <div className="app__left">
         <div className="app__header">
-          <h1>ROOKAS COVID-21 PRO MAX Tracker</h1>
+          <h1>ROOKAS COVID-21 PRO MAX MEGA SUPER AWESOME Tracker</h1>
           <FormControl className="app__dropdown">
             <Select
               variant="outlined"
@@ -131,7 +131,9 @@ const App = () => {
           </div>
         </CardContent>
       </Card>
+
     </div>
+
   );
 };
 
