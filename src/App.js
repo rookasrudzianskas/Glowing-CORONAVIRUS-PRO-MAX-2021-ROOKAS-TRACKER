@@ -91,6 +91,7 @@ const App = () => {
         </div>
         <div className="app__stats">
           <InfoBox
+              // then I click button, I want to se cases
             onClick={(e) => setCasesType("cases")}
             title="Coronavirus Cases"
             isRed
@@ -99,6 +100,7 @@ const App = () => {
             total={numeral(countryInfo.cases).format("0.0a")}
           />
           <InfoBox
+                // then I click button, I want to se recovered
             onClick={(e) => setCasesType("recovered")}
             title="Recovered"
             active={casesType === "recovered"}
@@ -106,6 +108,7 @@ const App = () => {
             total={numeral(countryInfo.recovered).format("0.0a")}
           />
           <InfoBox
+                // then I click button, I want to se deaths
             onClick={(e) => setCasesType("deaths")}
             title="Deaths"
             isRed
